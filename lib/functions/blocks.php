@@ -7,7 +7,7 @@ function my_acf_block_render_callback( $block ) {
 }
 
 add_action('acf/init', function() {
-    if( function_exists('acf_register_block') ) {
+    if( function_exists('acf_register_block') && locate_template("views/blocks/") !== "" ) {
         // Look into views/blocks
         $dir = new DirectoryIterator(locate_template("views/blocks/"));
         // Loop through found blocks
