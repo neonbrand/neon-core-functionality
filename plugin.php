@@ -36,6 +36,3 @@ include_once( BE_DIR . '/lib/functions/editor-style-refresh.php' );
 
 // General
 include_once( BE_DIR . '/lib/functions/general.php' );
-
-// Blocks
-include_once( BE_DIR . '/lib/functions/blocks.php');
