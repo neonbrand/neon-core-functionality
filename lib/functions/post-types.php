@@ -56,6 +56,7 @@ function be_register_service_post_type() {
 		'publicly_queryable' => true,
 		'show_ui' => true,
 		'show_in_menu' => true,
+		'show_in_rest' => true,
 		'query_var' => true,
 		'rewrite' => true,
 		'menu_icon' => 'dashicons-portfolio', //custom icons https://developer.wordpress.org/resource/dashicons/
