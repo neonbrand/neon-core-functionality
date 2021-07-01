@@ -22,18 +22,18 @@
 
 function be_register_service_post_type() {
 	$labels = array(
-		'name' => 'Services',
-		'singular_name' => 'Service',
-		'add_new' => 'Add New',
-		'add_new_item' => 'Add New Service',
-		'edit_item' => 'Edit Service',
-		'new_item' => 'New Service',
-		'view_item' => 'View Service',
-		'search_items' => 'Search Services',
-		'not_found' =>  'No services found',
-		'not_found_in_trash' => 'No services found in trash',
-		'parent_item_colon' => '',
-		'menu_name' => 'Services'
+		'name' => __('Services', 'core-func'),
+		'singular_name' => __('Service', 'core-func'),
+		'add_new' => __('Add New', 'core-func'),
+		'add_new_item' => __('Add New Service', 'core-func'),
+		'edit_item' => __('Edit Service', 'core-func'),
+		'new_item' => __('New Service', 'core-func'),
+		'view_item' => __('View Service', 'core-func'),
+		'search_items' => __('Search Services', 'core-func'),
+		'not_found' => __('No services found', 'core-func'),
+		'not_found_in_trash' => __('No services found in trash', 'core-func'),
+		'parent_item_colon' => __('', 'core-func'),
+		'menu_name' => __('Services', 'core-func')
 	);
 
 	$supports = array(
